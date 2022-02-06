@@ -1,0 +1,60 @@
+/*
+
+*/
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1,h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+img{
+	width: 200px;
+
+}
+
+#landing{
+	height: 75vh;
+	/*Center the contents hor and vert*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery{
+	height: 70vh;
+	/*center contents hor and vert*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+h2{
+	color: blue;
+}
+
+.tools{
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+	margin: 20px;
+	width: 75%;
+	border-radius: 6px;
+}
+
+nav{
+	position: fixed;
+}
